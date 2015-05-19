@@ -12,7 +12,7 @@ $('button, #about-link').click(function() {
 
 
 
-
+//TODO: Deal with button shit
 $('container > a').click(function (e) {
 	e.preventDefault();						// Prevent default anchor behavior
 	var goTo = this.getAttribute("href");	// Store anchor href

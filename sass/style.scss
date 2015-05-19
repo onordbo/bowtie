@@ -9,6 +9,10 @@ $bg-center: no-repeat center center;
 $darken-bg-img-ratio: 0.8;
 $darken-bg-img: linear-gradient(rgba(0, 0, 0, $darken-bg-img-ratio), rgba(0, 0, 0, $darken-bg-img-ratio));
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: greyscale;	
