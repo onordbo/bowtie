@@ -10,7 +10,7 @@ $(document).ready(function() {
 	$('a').not('#discover').click(function (e) {
 		e.preventDefault();						// Prevent default anchor behavior
 		var goTo = this.getAttribute("href");	// Store anchor href
-			$('.wrap').fadeOut(250);			// Animate while timer ticks
+			$('body').fadeOut(250);			// Animate while timer ticks
 
 		setTimeout(function(){
 			window.location = goTo;	// Fetch previously stored href
