@@ -128,4 +128,26 @@ img {
 		margin-right: 20px;
 
 	}
+
+	#up-next {
+		width: 100%;
+		height: 30vh;
+		background: $darken-bg-img, url('../img/dated.jpg') $bg-center;
+		background-size: cover;
+		background-position: center;
+		margin-top: 60px;
+
+		h1, h2 {
+			color: white;
+			font-family: $regular;
+			font-size: 30px;
+			margin-bottom: 15px;
+			text-align: center;
+		}
+
+		h2 {
+			font-size: 12px;
+			font-family: $regular;
+		}
+	}
 }
