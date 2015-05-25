@@ -18,7 +18,7 @@ $darken-bg-img: linear-gradient(rgba(0, 0, 0, $darken-bg-img-ratio), rgba(0, 0, 
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	text-rendering: geometricPrecision;
+	text-rendering: optimizeLegibility;
 	animation: fade 1s ease-in-out;
 }
 

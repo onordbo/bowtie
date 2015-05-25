@@ -3,10 +3,11 @@
 $link: red;
 
 //Apercu
-$bold: "Apercu-Bold";
-$light: "Apercu-Light";
+$bold: "proxima_nova_rgbold_italic";
+$light: "proxima_novalight";
 $medium: "Apercu-Medium";
-$regular: "Apercu";
+$regular: "proxima_nova_rgregular";
+$regularItalic: "proxima_novaregular_italic";
 
 $sans-fallback: Helvetica, Arial, sans-serif;
 
@@ -21,7 +22,7 @@ $darken-bg-img: linear-gradient(rgba(0, 0, 0, $darken-bg-img-ratio), rgba(0, 0, 
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	text-rendering: geometricPrecision;
+	text-rendering: optimizeLegibility;
 }
 
 a, a:hover, a:active, a:focus, a:visited, a:link {
