@@ -117,8 +117,11 @@ img {
 
 @media screen and (max-width: 768px) {
 	header {
+	height: 30vh;
+	margin-bottom: 40px;
+
 		h1 {
-			font-size: 90px;
+			font-size: 40px;
 			margin-left: 20px;
 		}
 	}
@@ -126,7 +129,10 @@ img {
 	section {
 		margin-left: 20px;
 		margin-right: 20px;
-
+		
+		h1 {
+			font-size: 25px;
+		}
 	}
 
 	#up-next {
@@ -148,6 +154,7 @@ img {
 		h2 {
 			font-size: 12px;
 			font-family: $regular;
+			margin: 0 20px;
 		}
 	}
 }
