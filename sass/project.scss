@@ -1,10 +1,11 @@
 $link: red;
 
 //Font
-$bold: "Apercu-Bold";
-$light: "Apercu-Light";
-$medium: "Apercu-Medium";
-$regular: "Apercu";
+$bold: "proxima_nova_rgbold";
+$light: "proxima_novalight";
+$medium: "proxima_novasemibold";
+$regular: "proxima_nova_rgregular";
+$regularItalic: "proxima_novaregular_italic";
 
 //Background stuff
 $bg-center: no-repeat center center;
@@ -66,12 +67,12 @@ section {
 	h1 {
 		margin-bottom: 10px;
 		font-size: 48px;
-		font-family: $bold;
+		font-family: $medium;
 	}
 
 	h2 {
-		font-family: $regular;
-		font-size: 15px;
+		font-family: $regularItalic;
+		font-size: 18px;
 		color: $link;
 		margin-bottom: 35px;
 	}
@@ -89,8 +90,7 @@ img {
 	height: 50vh; 
 	background: url('http://placekitten.com/2000/2000');
 	border: 0px solid white;
-	margin-top: 40px;
-	margin-bottom: 40px;
+	margin: 10px 0;
 }
 
 #up-next {
@@ -103,7 +103,7 @@ img {
 
 	h1, h2 {
 		color: white;
-		font-family: $bold;
+		font-family: $medium !important;
 		font-size: 60px;
 		margin-bottom: 15px;
 		text-align: center;
@@ -117,21 +117,27 @@ img {
 
 @media screen and (max-width: 768px) {
 	header {
-	height: 30vh;
-	margin-bottom: 40px;
+	height: 35vh;
+	margin-bottom: 30px;
 
 		h1 {
-			font-size: 40px;
+			font-size: 60px;
 			margin-left: 20px;
 		}
 	}
 
 	section {
-		margin-left: 20px;
-		margin-right: 20px;
+		margin-left: 30px;
+		margin-right: 30px;
 		
 		h1 {
-			font-size: 25px;
+			font-size: 35px;
+			max-width: 300px;
+		}
+
+		h2 {
+			font-size: 17px;
+			margin-bottom: 15px;
 		}
 	}
 
@@ -155,6 +161,35 @@ img {
 			font-size: 12px;
 			font-family: $regular;
 			margin: 0 20px;
+		}
+	}
+}
+
+//iPhone 2G-4G
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	header {
+	height: 25vh;
+
+		h1 {
+			font-size: 40px;
+		}
+	}
+
+	section {
+		h1 {
+			font-size: 25px;
+		}
+
+		h2 {
+			font-size: 14px;
+		}
+
+		h3 {
+			font-size: 13px;
+		}
+
+		p {
+			font-size: 14px;
 		}
 	}
 }
