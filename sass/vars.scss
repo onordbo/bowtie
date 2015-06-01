@@ -1,0 +1,29 @@
+//Colors
+$link: red;
+
+//Fonts
+$bold: "proxima_nova_rgbold";
+$light: "proxima_novalight";
+$medium: "proxima_novasemibold";
+$regular: "proxima_nova_rgregular";
+$regularItalic: "proxima_novaregular_italic";
+
+$sans-fallback: Helvetica, Arial, sans-serif;
+
+//BG Stuff
+$bg-center: no-repeat center center;
+$darken-bg-img-ratio: 0.7;
+$darken-bg-img: linear-gradient(rgba(0, 0, 0, $darken-bg-img-ratio), rgba(0, 0, 0, $darken-bg-img-ratio));
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	font-weight: 100;
+}

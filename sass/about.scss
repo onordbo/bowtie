@@ -1,0 +1,13 @@
+@import "vars.scss";
+@import "project.scss";
+
+header {
+	height: 100vh;
+	background: $darken-bg-img, url('http://baconmockup.com/1500/1500') $bg-center;
+
+	h1 {
+		font-size: 30px;
+		font-family: "Avenir";
+		font-weight: 300;
+	}
+}
