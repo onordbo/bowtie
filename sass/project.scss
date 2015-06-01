@@ -112,6 +112,7 @@ section {
 }
 
 @media screen and (max-width: 768px) {
+
 	header {
 	height: 65vh;
 	margin-bottom: 30px;
@@ -173,6 +174,15 @@ section {
 		margin-top: 20px;
 		margin-left: -5px;
 	}
+
+	#closeNav {
+		display: block;
+		transform: translateX(-50%);
+		left: 50%;
+		top: 0;
+		margin-top: 30px;
+		margin-left: -5px;
+	}	
 }
 
 //iPhone 2G-4G
