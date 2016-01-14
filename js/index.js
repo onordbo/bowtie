@@ -8,12 +8,15 @@ $(document).ready(function() {
 
 	//Fade out links
 	$('a').not('#discover').not('#trigger-overlay').not('#mail').click(function (e) {
-		e.preventDefault();		// Prevent default anchor behavior
-		var goTo = this.getAttribute("href");	// Store anchor href
-			$('body').fadeOut(250); 	// Animate while timer ticks
-
-		setTimeout(function(){
-			window.location = goTo;	// Fetch previously stored href
-		}, 300); // Set anchor timeout
-	});
+        var goTo = this.getAttribute("href");    // Store anchor href
+        if (goTo.indexOf("#") > -1) {
+        e.preventDefault();        // Prevent default anchor behavior
+            $('body').fadeOut(250);     // Animate while timer ticks
+        setTimeout(function(){
+            window.location = goTo;    // Fetch previously stored href
+        }, 300); // Set anchor timeout
+        }
+    });
 });
+
+//
